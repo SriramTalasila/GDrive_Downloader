@@ -1,0 +1,296 @@
+2022-10-08 00:00:08.811  INFO 7956 --- [task-3] c.t.downloader.service.GoogleService     : Starting Download...........
+2022-10-08 00:00:08.815  INFO 7956 --- [task-3] c.t.downloader.service.GoogleService     : Starting Download...........
+2022-10-08 00:02:00.221  INFO 7956 --- [task-5] c.t.downloader.service.GoogleService     : Starting Download...........
+2022-10-08 00:02:00.221  INFO 7956 --- [task-5] c.t.downloader.service.GoogleService     : Starting Download...........
+2022-10-08 00:04:39.582  INFO 7956 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-10-08 00:04:39.602  INFO 7956 --- [Thread-7] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-10-08 00:04:41.670  INFO 7956 --- [Thread-7] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-10-08 00:04:41.684  WARN 7956 --- [Thread-7] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [parallel-2] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.3.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.3.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+ java.base@17.0.3.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+ java.base@17.0.3.1/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+ java.base@17.0.3.1/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+ java.base@17.0.3.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+ java.base@17.0.3.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1170)
+ java.base@17.0.3.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.3.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.3.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.3.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.3.1/java.lang.Thread.run(Thread.java:833)
+2022-10-08 00:04:41.686  WARN 7956 --- [Thread-7] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [task-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.3.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.3.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.3.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.3.1/java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:460)
+ java.base@17.0.3.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1061)
+ java.base@17.0.3.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.3.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.3.1/java.lang.Thread.run(Thread.java:833)
+2022-10-08 00:04:41.688  WARN 7956 --- [Thread-7] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [task-2] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.3.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.3.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.3.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.3.1/java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:460)
+ java.base@17.0.3.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1061)
+ java.base@17.0.3.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.3.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.3.1/java.lang.Thread.run(Thread.java:833)
+2022-10-08 00:04:41.690  WARN 7956 --- [Thread-7] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [task-3] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.3.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.3.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.3.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.3.1/java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:460)
+ java.base@17.0.3.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1061)
+ java.base@17.0.3.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.3.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.3.1/java.lang.Thread.run(Thread.java:833)
+2022-10-08 00:04:41.691  WARN 7956 --- [Thread-7] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [task-4] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.3.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.3.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.3.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.3.1/java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:460)
+ java.base@17.0.3.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1061)
+ java.base@17.0.3.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.3.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.3.1/java.lang.Thread.run(Thread.java:833)
+2022-10-08 00:04:41.692  WARN 7956 --- [Thread-7] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [parallel-3] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.3.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.3.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+ java.base@17.0.3.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+ java.base@17.0.3.1/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+ java.base@17.0.3.1/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+ java.base@17.0.3.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+ java.base@17.0.3.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1170)
+ java.base@17.0.3.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.3.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.3.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.3.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.3.1/java.lang.Thread.run(Thread.java:833)
+2022-10-08 00:04:41.694  WARN 7956 --- [Thread-7] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [task-5] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.3.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.3.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.3.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.3.1/java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:460)
+ java.base@17.0.3.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1061)
+ java.base@17.0.3.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.3.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.3.1/java.lang.Thread.run(Thread.java:833)
+2022-10-08 00:04:41.695  WARN 7956 --- [Thread-7] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [task-6] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.3.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.3.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.3.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.3.1/java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:460)
+ java.base@17.0.3.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1061)
+ java.base@17.0.3.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.3.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.3.1/java.lang.Thread.run(Thread.java:833)
+2022-10-08 00:04:41.697  WARN 7956 --- [Thread-7] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [task-7] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.3.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.3.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.3.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.3.1/java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:460)
+ java.base@17.0.3.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1061)
+ java.base@17.0.3.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.3.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.3.1/java.lang.Thread.run(Thread.java:833)
+2022-10-08 00:04:41.698  WARN 7956 --- [Thread-7] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [task-8] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.3.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.3.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.3.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.3.1/java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:460)
+ java.base@17.0.3.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1061)
+ java.base@17.0.3.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.3.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.3.1/java.lang.Thread.run(Thread.java:833)
+2022-10-08 00:04:41.700  WARN 7956 --- [Thread-7] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [parallel-4] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.3.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.3.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+ java.base@17.0.3.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+ java.base@17.0.3.1/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+ java.base@17.0.3.1/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+ java.base@17.0.3.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+ java.base@17.0.3.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1170)
+ java.base@17.0.3.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.3.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.3.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.3.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.3.1/java.lang.Thread.run(Thread.java:833)
+2022-10-08 00:04:41.701  WARN 7956 --- [Thread-7] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [parallel-5] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.3.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.3.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+ java.base@17.0.3.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+ java.base@17.0.3.1/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+ java.base@17.0.3.1/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+ java.base@17.0.3.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+ java.base@17.0.3.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1170)
+ java.base@17.0.3.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.3.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.3.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.3.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.3.1/java.lang.Thread.run(Thread.java:833)
+2022-10-08 00:04:41.702  WARN 7956 --- [Thread-7] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [parallel-6] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.3.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.3.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+ java.base@17.0.3.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+ java.base@17.0.3.1/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+ java.base@17.0.3.1/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+ java.base@17.0.3.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+ java.base@17.0.3.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1170)
+ java.base@17.0.3.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.3.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.3.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.3.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.3.1/java.lang.Thread.run(Thread.java:833)
+2022-10-08 00:04:41.704  WARN 7956 --- [Thread-7] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [parallel-7] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.3.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.3.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+ java.base@17.0.3.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+ java.base@17.0.3.1/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+ java.base@17.0.3.1/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+ java.base@17.0.3.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+ java.base@17.0.3.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1170)
+ java.base@17.0.3.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.3.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.3.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.3.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.3.1/java.lang.Thread.run(Thread.java:833)
+2022-10-08 00:04:41.706  WARN 7956 --- [Thread-7] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [parallel-8] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.3.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.3.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.3.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.3.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.3.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.3.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.3.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.3.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.3.1/java.lang.Thread.run(Thread.java:833)
+2022-10-08 00:04:41.710  WARN 7956 --- [Thread-7] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [logback-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.3.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.3.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+ java.base@17.0.3.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+ java.base@17.0.3.1/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+ java.base@17.0.3.1/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+ java.base@17.0.3.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+ java.base@17.0.3.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1170)
+ java.base@17.0.3.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.3.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.3.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.3.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.3.1/java.lang.Thread.run(Thread.java:833)
+2022-10-08 00:04:41.713  WARN 7956 --- [Thread-7] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [logback-2] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.3.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.3.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+ java.base@17.0.3.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+ java.base@17.0.3.1/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+ java.base@17.0.3.1/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+ java.base@17.0.3.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+ java.base@17.0.3.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1170)
+ java.base@17.0.3.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.3.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.3.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.3.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.3.1/java.lang.Thread.run(Thread.java:833)
+2022-10-08 00:05:04.565  INFO 7956 --- [restartedMain] c.t.downloader.DownloaderApplication     : Starting DownloaderApplication using Java 17.0.3.1 on SriNotebook with PID 7956 (D:\code\downloader\target\classes started by srira in D:\code\downloader)
+2022-10-08 00:05:04.566  INFO 7956 --- [restartedMain] c.t.downloader.DownloaderApplication     : No active profile set, falling back to 1 default profile: "default"
+2022-10-08 00:05:04.749  INFO 7956 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-10-08 00:05:04.750  INFO 7956 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-08 00:05:04.750  INFO 7956 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-08 00:05:04.767  INFO 7956 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-10-08 00:05:04.767  INFO 7956 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 198 ms
+2022-10-08 00:05:04.787  INFO 7956 --- [restartedMain] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static fields: private static java.lang.String com.talasila.downloader.DownloaderApplication.downloadPath
+2022-10-08 00:05:04.850  INFO 7956 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [public/index.html]
+2022-10-08 00:05:04.885  INFO 7956 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6a9fb446, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@21d94d36, org.springframework.security.web.context.SecurityContextPersistenceFilter@4727bcfe, org.springframework.security.web.header.HeaderWriterFilter@63d56b9c, org.springframework.web.filter.CorsFilter@710b8f7a, org.springframework.security.web.authentication.logout.LogoutFilter@3d2314d5, org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter@4e63dc33, org.springframework.security.oauth2.client.web.OAuth2LoginAuthenticationFilter@342626ef, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@27f2292b, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@741fceea, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@56a6d5ae, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1ee7cd6d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@633579ab, org.springframework.security.web.session.SessionManagementFilter@2fb2c3d1, org.springframework.security.web.access.ExceptionTranslationFilter@43da4955, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7247394a]
+2022-10-08 00:05:04.892  INFO 7956 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-10-08 00:05:04.899  INFO 7956 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-10-08 00:05:04.901  INFO 7956 --- [restartedMain] c.t.downloader.DownloaderApplication     : Started DownloaderApplication in 0.378 seconds (JVM running for 451.22)
+2022-10-08 00:05:04.902  INFO 7956 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-10-08 00:05:06.184  INFO 7956 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-08 00:05:06.185  INFO 7956 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-10-08 00:05:06.186  INFO 7956 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-10-08 00:05:32.715  INFO 7956 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-10-08 00:05:32.735  INFO 7956 --- [Thread-11] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-10-08 00:05:32.757  INFO 7956 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-10-08 00:05:32.757  INFO 7956 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-10-08 00:05:32.763  INFO 7956 --- [restartedMain] c.t.downloader.DownloaderApplication     : Starting DownloaderApplication using Java 17.0.3.1 on SriNotebook with PID 7956 (D:\code\downloader\target\classes started by srira in D:\code\downloader)
+2022-10-08 00:05:32.763  INFO 7956 --- [restartedMain] c.t.downloader.DownloaderApplication     : No active profile set, falling back to 1 default profile: "default"
+2022-10-08 00:05:32.975  INFO 7956 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-10-08 00:05:32.976  INFO 7956 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-08 00:05:32.977  INFO 7956 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-08 00:05:32.990  INFO 7956 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2022-10-08 00:05:32.990  INFO 7956 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 223 ms
+2022-10-08 00:05:33.000  INFO 7956 --- [restartedMain] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static fields: private static java.lang.String com.talasila.downloader.DownloaderApplication.downloadPath
+2022-10-08 00:05:33.064  INFO 7956 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [public/index.html]
+2022-10-08 00:05:33.102  INFO 7956 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5a2743a6, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4fd9979c, org.springframework.security.web.context.SecurityContextPersistenceFilter@3063cc77, org.springframework.security.web.header.HeaderWriterFilter@479e5def, org.springframework.web.filter.CorsFilter@61a68a05, org.springframework.security.web.authentication.logout.LogoutFilter@71ec8d2b, org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter@4dbc6db7, org.springframework.security.oauth2.client.web.OAuth2LoginAuthenticationFilter@400a44a, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@7f002132, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@6005508f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6d19af60, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@585de609, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5f055a, org.springframework.security.web.session.SessionManagementFilter@734a9616, org.springframework.security.web.access.ExceptionTranslationFilter@75f51a49, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7a4de4ca]
+2022-10-08 00:05:33.113  INFO 7956 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-10-08 00:05:33.120  INFO 7956 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-10-08 00:05:33.123  INFO 7956 --- [restartedMain] c.t.downloader.DownloaderApplication     : Started DownloaderApplication in 0.387 seconds (JVM running for 479.442)
+2022-10-08 00:05:33.124  INFO 7956 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-10-08 00:05:34.789  INFO 7956 --- [Thread-11] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-10-08 00:05:34.894  INFO 7956 --- [restartedMain] c.t.downloader.DownloaderApplication     : Starting DownloaderApplication using Java 17.0.3.1 on SriNotebook with PID 7956 (D:\code\downloader\target\classes started by srira in D:\code\downloader)
+2022-10-08 00:05:34.895  INFO 7956 --- [restartedMain] c.t.downloader.DownloaderApplication     : No active profile set, falling back to 1 default profile: "default"
+2022-10-08 00:05:35.107  INFO 7956 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-10-08 00:05:35.108  INFO 7956 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-08 00:05:35.108  INFO 7956 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-08 00:05:35.126  INFO 7956 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2022-10-08 00:05:35.126  INFO 7956 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 229 ms
+2022-10-08 00:05:35.145  INFO 7956 --- [restartedMain] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static fields: private static java.lang.String com.talasila.downloader.DownloaderApplication.downloadPath
+2022-10-08 00:05:35.207  INFO 7956 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [public/index.html]
+2022-10-08 00:05:35.254  INFO 7956 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3bc71fcc, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4fbdfbaa, org.springframework.security.web.context.SecurityContextPersistenceFilter@7cc9ec68, org.springframework.security.web.header.HeaderWriterFilter@f27291c, org.springframework.web.filter.CorsFilter@7877613f, org.springframework.security.web.authentication.logout.LogoutFilter@7e7865c2, org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter@5f8d0e0c, org.springframework.security.oauth2.client.web.OAuth2LoginAuthenticationFilter@61498fca, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@6b93d9ed, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@55ed8624, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1d977870, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2bcedd17, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5657da2a, org.springframework.security.web.session.SessionManagementFilter@f39e49f, org.springframework.security.web.access.ExceptionTranslationFilter@355a9cb5, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5fa56563]
+2022-10-08 00:05:35.266  INFO 7956 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-10-08 00:05:35.274  WARN 7956 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2022-10-08 00:05:35.276  INFO 7956 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-10-08 00:05:35.284  INFO 7956 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-10-08 00:05:35.306 ERROR 7956 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2022-10-08 00:05:37.816  INFO 7956 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-10-08 00:05:37.818  INFO 7956 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-10-08 00:05:53.349  INFO 19500 --- [restartedMain] c.t.downloader.DownloaderApplication     : Starting DownloaderApplication using Java 17.0.3.1 on SriNotebook with PID 19500 (D:\code\downloader\target\classes started by srira in D:\code\downloader)
+2022-10-08 00:05:53.350  INFO 19500 --- [restartedMain] c.t.downloader.DownloaderApplication     : No active profile set, falling back to 1 default profile: "default"
+2022-10-08 00:05:53.413  INFO 19500 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-10-08 00:05:53.413  INFO 19500 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-10-08 00:05:54.535  INFO 19500 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-10-08 00:05:54.548  INFO 19500 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-08 00:05:54.549  INFO 19500 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-08 00:05:54.634  INFO 19500 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-10-08 00:05:54.634  INFO 19500 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1221 ms
+2022-10-08 00:05:55.116  INFO 19500 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [public/index.html]
+2022-10-08 00:05:55.403  INFO 19500 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6fc3a990, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@e24b39f, org.springframework.security.web.context.SecurityContextPersistenceFilter@474bcc99, org.springframework.security.web.header.HeaderWriterFilter@58b98c50, org.springframework.web.filter.CorsFilter@3bec595, org.springframework.security.web.authentication.logout.LogoutFilter@57c2e5a7, org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter@741826c7, org.springframework.security.oauth2.client.web.OAuth2LoginAuthenticationFilter@1ab4c601, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@20a29f83, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@708d50f4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2b3d9d41, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4a4cb4f5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@270f85c, org.springframework.security.web.session.SessionManagementFilter@f6a436e, org.springframework.security.web.access.ExceptionTranslationFilter@664d8c1e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3d9bbf91]
+2022-10-08 00:05:55.499  INFO 19500 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-10-08 00:05:55.535  INFO 19500 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-10-08 00:05:55.550  INFO 19500 --- [restartedMain] c.t.downloader.DownloaderApplication     : Started DownloaderApplication in 2.588 seconds (JVM running for 3.066)
+2022-10-08 00:06:15.285  INFO 19500 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-10-08 00:06:15.307  INFO 19500 --- [Thread-5] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-10-08 00:06:19.751  INFO 15544 --- [restartedMain] c.t.downloader.DownloaderApplication     : Starting DownloaderApplication using Java 17.0.3.1 on SriNotebook with PID 15544 (D:\code\downloader\target\classes started by srira in D:\code\downloader)
+2022-10-08 00:06:19.754  INFO 15544 --- [restartedMain] c.t.downloader.DownloaderApplication     : No active profile set, falling back to 1 default profile: "default"
+2022-10-08 00:06:19.818  INFO 15544 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-10-08 00:06:19.818  INFO 15544 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-10-08 00:06:21.179  INFO 15544 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-10-08 00:06:21.192  INFO 15544 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-08 00:06:21.192  INFO 15544 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-08 00:06:21.270  INFO 15544 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-10-08 00:06:21.270  INFO 15544 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1451 ms
+2022-10-08 00:06:21.764  INFO 15544 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [public/index.html]
+2022-10-08 00:06:22.052  INFO 15544 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@37270d67, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1b223961, org.springframework.security.web.context.SecurityContextPersistenceFilter@4d45d46, org.springframework.security.web.header.HeaderWriterFilter@566754e7, org.springframework.web.filter.CorsFilter@2d52788b, org.springframework.security.web.authentication.logout.LogoutFilter@11935ae, org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter@567906fb, org.springframework.security.oauth2.client.web.OAuth2LoginAuthenticationFilter@5d892493, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@73521762, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@47eea281, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@40875f33, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@330d017d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@48adc32e, org.springframework.security.web.session.SessionManagementFilter@5ad226bb, org.springframework.security.web.access.ExceptionTranslationFilter@17277755, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@67be7d49]
+2022-10-08 00:06:22.150  INFO 15544 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-10-08 00:06:22.185  INFO 15544 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-10-08 00:06:22.198  INFO 15544 --- [restartedMain] c.t.downloader.DownloaderApplication     : Started DownloaderApplication in 3.001 seconds (JVM running for 3.494)
+2022-10-08 00:06:42.715  INFO 22152 --- [main] c.t.d.DownloaderApplicationTests         : Starting DownloaderApplicationTests using Java 17.0.3.1 on SriNotebook with PID 22152 (started by srira in D:\code\downloader)
+2022-10-08 00:06:42.717  INFO 22152 --- [main] c.t.d.DownloaderApplicationTests         : No active profile set, falling back to 1 default profile: "default"
+2022-10-08 00:06:44.294  INFO 22152 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [public/index.html]
+2022-10-08 00:06:44.796  INFO 22152 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@38732364, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7c70aae1, org.springframework.security.web.context.SecurityContextPersistenceFilter@4b957db0, org.springframework.security.web.header.HeaderWriterFilter@280fafd, org.springframework.web.filter.CorsFilter@48cd319d, org.springframework.security.web.authentication.logout.LogoutFilter@26457986, org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter@57186526, org.springframework.security.oauth2.client.web.OAuth2LoginAuthenticationFilter@2871ac91, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@6f85ee02, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@6f38f084, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@626b639e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5ec6fede, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4ef18604, org.springframework.security.web.session.SessionManagementFilter@4ed18798, org.springframework.security.web.access.ExceptionTranslationFilter@35145874, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4a62062a]
+2022-10-08 00:06:44.927  INFO 22152 --- [main] c.t.d.DownloaderApplicationTests         : Started DownloaderApplicationTests in 2.454 seconds (JVM running for 3.305)
